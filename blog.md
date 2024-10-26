@@ -10,7 +10,7 @@ Research (https://hill.math.gatech.edu/publications/PAPER%20PDFS/RandomNumberGue
 
 In games like Rock, Paper, Scissors, this inability to behave randomly leads to non-uniform strategies. Players may try to avoid repeating a move they just played, thinking that it will be more unpredictable. They may also try to counter what they think their opponent expects, resulting in predictable tendencies over time. These biases provide a valuable opportunity for an algorithm to exploit through statistical and pattern-based analysis.
 
-This enables the provided code has such a strong chance of winning — it can observe the human tendency to favor particular sequences or overuse certain moves, and adapt accordingly. By using techniques such as pattern detection, frequency bias analysis, and historical move analysis, the model can identify and capitalize on these human biases, increasing its odds of winning. Essentially, the model is leveraging the fact that humans struggle to achieve true randomness, and therefore tend to create exploitable patterns in their actions.
+This enables the provided code to have a strong chance of winning — it can observe the human tendency to favor particular sequences or overuse certain moves, and adapt accordingly. By using techniques such as pattern detection, frequency bias analysis, and historical move analysis, the model can identify and capitalize on these human biases, increasing its odds of winning. Essentially, the model is leveraging the fact that humans struggle to achieve true randomness, and therefore tend to create exploitable patterns in their actions.
 
 ## The Game Rules
 Before I get into the code, here’s a quick recap of the rules:

@@ -1,6 +1,6 @@
 Mastering Rock, Paper, Scissors, Lizard, Spock: An Algorithmic Approach
 
-If you've watched "The Big Bang Theory," then you may have heard of the variant of the classic "Rock, Paper, Scissors" game—namely, "Rock, Paper, Scissors, Lizard, Spock" (RPSLS). It's a game with more outcomes, making it a perfect challenge for an AI model strategy to predict and counter the opponent's moves. This blog post dives into a Python implementation that builds an AI capable of challenging any human or algorithmic opponent, while utilizing decision-making strategies to improve its odds of winning.
+If you've watched "The Big Bang Theory," then you may have heard of the variant of the classic "Rock, Paper, Scissors" game—namely, "Rock, Paper, Scissors, Lizard, Spock" (RPSLS). It's a game with more outcomes, making it a perfect challenge for an AI model strategy to predict and counter the opponent's moves in a series of games. This blog post dives into a Python implementation that builds an AI capable of challenging any human or algorithmic opponent, while utilizing decision-making strategies to improve its odds of winning.
 
 ## Human Bias in Random Choices: Why We Struggle with True Randomness
 
@@ -100,4 +100,4 @@ A custom strategy with a predefined list of moves, allowing you to test how well
 In the provided demonstration, the model faces an opponent who heavily favors Spock. This scenario tests how well the model can detect frequency bias and use it to its advantage.
 
 ## Summary
-The code for this "Rock, Paper, Scissors, Lizard, Spock" game presents an approach to building a strategic AI. The multi-layered decision-making process makes the model versatile and adaptive, capable of dealing with a range of opponent behaviors—from strict repetition to pure randomness. By employing pattern detection, frequency bias exploitation, and recent history analysis, the AI becomes a formidable opponent in this game of chance and strategy. 
+The code for this "Rock, Paper, Scissors, Lizard, Spock" game presents an approach to building a strategic AI. The layered decision-making process makes the model versatile and adaptive, capable of dealing with a range of opponent behaviors—from strict repetition to pure randomness. By employing pattern detection, frequency bias exploitation, and recent history analysis, the AI becomes a formidable opponent in this game of chance and strategy. 

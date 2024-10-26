@@ -1,5 +1,4 @@
-# rock-paper-scissors-spock-lizard
-Rock Paper Scissors Spock Lizard Garme
+Mastering Rock, Paper, Scissors, Lizard, Spock: An AI-Driven Approach
 
 If you've watched "The Big Bang Theory," then you may have heard of the variant of the classic "Rock, Paper, Scissors" game—namely, "Rock, Paper, Scissors, Lizard, Spock" (RPSLS). It's a game with more outcomes, making it a perfect challenge for an AI model strategy to predict and counter the opponent's moves. This blog post dives into a Python implementation that builds an AI capable of challenging any human or algorithmic opponent, while utilizing decision-making strategies to improve its odds of winning.
 

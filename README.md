@@ -89,8 +89,8 @@ Finally, to maintain unpredictability and prevent the opponent from exploiting t
 ## Visualizing Performance
 The code also includes functions to visualize the performance of the model:
 
-- Cumulative Win Rate Plot: Tracks the AI's win rate across multiple rounds. A rising curve would indicate that the model is successfully adapting to the opponent.
 - Result Distribution Plot: Shows the number of wins, losses, and draws, helping to understand the overall effectiveness of the strategies.
+- Cumulative Win Rate Plot: Tracks the AI's win rate across multiple rounds. A rising curve would indicate that the model is successfully adapting to the opponent.
 
 ## Demonstration
 To see the model in action, the demonstrate_game() function allows you to pit the model against various opponent strategies. For example:
@@ -101,4 +101,4 @@ A custom strategy with a predefined list of moves, allowing you to test how well
 In the provided demonstration, the model faces an opponent who heavily favors Spock. This scenario tests how well the model can detect frequency bias and use it to its advantage.
 
 ## Summary
-The code for this "Rock, Paper, Scissors, Lizard, Spock" game presents an approach to building a strategic AI. The multi-layered decision-making process makes the AI versatile and adaptive, capable of dealing with a range of opponent behaviors—from strict repetition to pure randomness. By employing pattern detection, frequency bias exploitation, and recent history analysis, the AI becomes a formidable opponent in this game of chance and strategy. 
+The code for this "Rock, Paper, Scissors, Lizard, Spock" game presents an approach to building a strategic AI. The multi-layered decision-making process makes the model versatile and adaptive, capable of dealing with a range of opponent behaviors—from strict repetition to pure randomness. By employing pattern detection, frequency bias exploitation, and recent history analysis, the AI becomes a formidable opponent in this game of chance and strategy. 

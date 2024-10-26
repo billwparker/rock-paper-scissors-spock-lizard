@@ -56,7 +56,7 @@ When neither patterns nor biases are apparent, the model checks the recent histo
 If no useful patterns or biases are found, the model defaults to making a random move, ensuring that its behavior remains unpredictable and cannot easily be exploited by an opponent.
 
 ## Game Implementation
-Now, let’s explore how these strategies are implemented in practice. The code is built around two main classes: RPSLSState and PatternDetector, while ImprovedRPSLSGame encapsulates the decision-making strategies.
+Now, let’s explore how these strategies are implemented in practice. The code is built around two main classes: RPSLSState and PatternDetector, while RPSLSGame encapsulates the decision-making strategies.
 
 ## RPSLSState Class
 This class is responsible for managing game state. It keeps track of the moves made by both the player and the opponent and provides functionality to determine the outcome of a round.
